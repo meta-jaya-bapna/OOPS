@@ -1,4 +1,5 @@
 var displayedImage = document.querySelector('.displayed-img');
+/*'#displayed-img-1'*/
 var thumbBar = document.querySelector('.thumb-bar');
 
 btn = document.querySelector('button');
