@@ -18,6 +18,10 @@ public class InMemoryProductDao implements BaseDao {
 	
 	 Map<Integer , Product> allProducts = new HashMap<>();
 
+	 
+	protected InMemoryProductDao() {
+		super();
+	}
 	/**
 	 * this method returns list of products
 	 * @return - list of products
